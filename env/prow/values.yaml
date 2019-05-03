@@ -1,0 +1,10 @@
+auth:
+  git:
+    username: teilo-bot
+build:
+  enabled: false
+buildnum:
+  enabled: false
+pipelinerunner:
+  enabled: "true"
+tillerNamespace: ""

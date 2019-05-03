@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQFhVXcVuSwwmQ1rf6HG9lQTANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ2NzkwZDMzMi1kNjIzLTRlYWEtYTk1MC1hM2NjYWVkMTMwMmQw
+    HhcNMTkwNTAzMTAxNzU4WhcNMjQwNTAxMTExNzU4WjAvMS0wKwYDVQQDEyQ2Nzkw
+    ZDMzMi1kNjIzLTRlYWEtYTk1MC1hM2NjYWVkMTMwMmQwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQDV+nIHmdCAdSn97lPJJVTbRh3W+VXz/jJBkARwaxr8
+    7TiQG43WGh2lk9IWmZ+Iadx390wVAmhzsP1dOvGm7qjObCISB4BBqIKwQXC0KHVH
+    SHvtiFzmAMrxvyM2uQjN4K1928EVvXYTUoJj/U+I7syTyhQprC7VAA8Pc4WT/SKz
+    kqVu4i0CEe/lQebpvk9We3PJNXjHb4sjR9JAbxjMWARyTMcOQvhJGYdAh0xHB98L
+    p8t750+YVC4MNWpstJnUCMsMggWbdV1WVZXDE5x844pwramGxb0CUwseTzHz/Mzv
+    324N2fKBzM8Uo8HpCf/MReRXFPWwkVRjenGUxHgU8el9AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAD
+    k3kFAxvgdAxWcnhXegj4WuflfU1qUCbDMocYCzcWYKmHDuxhYi0K7HBI7vZBNffa
+    5uuBQBo6do/oYImbWaOvu2dkmz38xA1W/ju8D2rwK4d07T+OKFhXcTB7kW8FbAwu
+    HHFIIcbDa6tRsgNsW1tRJXbfNQWCuZcaQpzHwf6YgzZDq5XRXVGtM+rmFJv8euyt
+    fUXTx9FBiuYuHE+zNfTXDXPM1sGkdnbWhfjXlfjo9IYt0/3FrPn9tnGzRWuPIWlj
+    ylsPm7JbKtTHo+TkUPC/GAMnshTflIOWfbXu647KrE8pQFsqipgyPhv4jXyUC5D+
+    YRScyvxNCjGCiJZQtlwP
+    -----END CERTIFICATE-----
+  clusterName: plat-shared-rbac
+  jx-install-version: 2.0.0-dev+0b91a7baf
+  kubeProvider: gke
+  projectID: core-dev-1
+  region: ""
+  secretsLocation: vault
+  server: https://35.196.181.204
+  systemVaultName: jx-vault-plat-shared-r
+  zone: us-east1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
